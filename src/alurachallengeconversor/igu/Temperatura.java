@@ -45,7 +45,7 @@ public class Temperatura extends javax.swing.JFrame {
             }
         });
 
-        lblTemp.setText("Ingresa el monto ");
+        lblTemp.setText("Ingresa los grados");
 
         btnConvertir.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         btnConvertir.setText("Convertir");

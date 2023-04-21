@@ -117,14 +117,15 @@ public class Selector extends javax.swing.JFrame {
     private void btnCoinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCoinActionPerformed
         Moneda moneda = new Moneda();
         moneda.setVisible(true);
+        moneda.setTitle("Conversor de Monedas");
         moneda.setLocationRelativeTo(null);
         dispose();
     }//GEN-LAST:event_btnCoinActionPerformed
 
     private void btnTempActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTempActionPerformed
         Temperatura temperatura = new Temperatura();
-        temperatura.setTitle("Conversor de temperatura");
         temperatura.setVisible(true);
+        temperatura.setTitle("Conversor de temperatura");
         temperatura.setLocationRelativeTo(null);
         dispose();
     }//GEN-LAST:event_btnTempActionPerformed
@@ -136,6 +137,7 @@ public class Selector extends javax.swing.JFrame {
     private void btnMedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMedActionPerformed
         Medida medida = new Medida();
         medida.setVisible(true);
+        medida.setTitle("Conversor de Medidas");
         medida.setLocationRelativeTo(null);
         dispose();
     }//GEN-LAST:event_btnMedActionPerformed
